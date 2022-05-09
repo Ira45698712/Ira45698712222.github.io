@@ -1,0 +1,2064 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 99px;
+    background: #403C3B;
+    box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
+}
+
+.LaVue {
+    width: 100px;
+    height: 25px;
+    margin-left: 100px;
+    margin-top: 38px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 25px;
+    letter-spacing: 0.15em;
+    color: #5f9266;
+}
+
+.paspologenie {
+    position: relative;
+}
+
+.adrres {
+    background-color: #504B4A;
+    font-family: 'Gilroy';
+    width: 370px;
+    height: 35px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 90px;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding-left: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.lupa {
+    position: absolute;
+    right: 15px;
+    top: 35px;
+    width: 25px;
+}
+
+.znachok_paspologenie {
+    position: absolute;
+    left: 95px;
+    top: 35px;
+    width: 25px;
+}
+
+
+.pozvonit {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+
+.pozvonit img {
+    width: 40px;
+    height: 40px;
+    margin-top: 28px;
+}
+
+.pozvonit img:hover {
+    border: solid 1px #5f9266;
+}
+
+.pozvonit_phone {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.pozvonit_phone_tel:hover {
+    text-decoration: underline;
+}
+
+.pozvonit_phone_kontakt {
+    margin-top: 28px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #CFCFCF;
+}
+
+.pozvonit_phone_tel {
+    color: white;
+    margin-top: -15px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.korzina_header {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    border-radius: 10px;
+    height: 52px;
+    width: 149px;
+    margin-left: 210px;
+    margin-top: 25px;
+}
+
+.korzina_header_nadpis {
+    border-right: solid 1px rgb(11, 2, 2);
+    width: 70px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 10px;
+    color: white;
+    font-size: 17px;
+}
+
+.korzina_header img {
+    width: 32px;
+    height: 32px;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.korzina_header:hover {
+    background: #315336;
+    text-decoration: underline;
+    width: 157px;
+    height: 55px;
+}
+
+.main {
+    margin-top: 0;
+
+    background: linear-gradient(90deg, #211F20 25%, rgba(68, 64, 63, 0) 100%), url('img/главная_курочка.png');
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.osn_nadpis {
+    margin: 0;
+    font-family: 'Zing Rust Demo';
+    width: 800px;
+    font-style: italic;
+    font-weight: 400;
+    padding-top: 100px;
+    font-size: 60px;
+    line-height: 109.2%;
+    text-shadow: -20px 15px 4px rgb(0, 0, 0, 0.5);
+    text-align: center;
+    color: #FFFFFF;
+    transform: rotate(-8.37deg);
+}
+
+.knopka_proboval {
+    margin-top: 30px;
+    width: 290px;
+    height: 50px;
+    font-family: 'Zing Rust Demo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 109.2%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 300px;
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    transform: rotate(-15.02deg);
+    padding-top: 15px;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+}
+
+.knopka_proboval:hover {
+    background: #2e5333;
+    font-size: 27px;
+}
+
+.knopka_proboval_obertka {
+    box-sizing: border-box;
+    width: 310px;
+    height: 130px;
+    position: absolute;
+    left: 19.65%;
+    right: 63.57%;
+    top: 46.33%;
+
+    transform: rotate(-10.02deg);
+
+}
+
+.menu_ssilki {
+    margin: 0;
+    background-color: #403C3B;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.08);
+}
+
+.menu {
+    font-family: 'Radio Canada', sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 50px;
+    font-family: 'Gilroy';
+    padding-left: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 0;
+    background-color: #403C3B;
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+ul li a {
+    color: #FFFFFF;
+    text-decoration: dotted;
+
+    padding-right: 40px;
+}
+
+ul li a:hover {
+    border-bottom: solid green 2px;
+    padding-bottom: 37px;
+    padding-left: 35px;
+}
+
+.ALL_FOOD {
+    background-color: #403C3B;
+
+}
+
+.ALL_FOOD h1 {
+    margin-top: 0;
+    margin-left: 100px;
+    padding-left: 20px;
+    border-left: solid #618967 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+
+}
+
+.container_eda {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.08);
+    padding-bottom: 40px;
+}
+
+.eda {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #504B4A;
+    margin-right: 20PX;
+}
+
+.eda:hover {
+    background-color: #5e5a5a;
+}
+
+.foto_eda {
+
+    width: 340px;
+    height: 220px;
+}
+
+.nazvanie_eda {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.opisanie_eda {
+    color: #fff9f9;
+    margin-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.price_eda {
+    color: #FFFFFF;
+    margin-left: 20px;
+    line-height: 27px;
+}
+
+.btn {
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+    width: 150px;
+    height: 40px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff9f9;
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    border-radius: 10px;
+}
+
+.btn:hover {
+    width: 160px;
+    height: 50px;
+    right: 15px;
+    bottom: 10px;
+    font-size: 18px;
+    background: linear-gradient(114.93deg, #59825f 5.11%, #5f9266 94%);
+}
+
+.korzina {
+    width: 20px;
+    padding-left: 10px;
+}
+
+.information {
+    background-color: #403C3B;
+    height: 520px;
+}
+
+.container {
+    background: linear-gradient(90deg, #211F20 30%, rgba(68, 64, 63, 0) 100%), url('https://oir.mobi/uploads/posts/2021-03/1616966865_48-p-fon-dlya-menyu-53.jpg');
+    background-size: cover;
+    height: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.inf {
+    padding-top: 50px;
+    color: white;
+    margin-left: 100px;
+    line-height: 18px;
+
+}
+
+.inf_nazvanie {
+    font-size: 42px;
+    color: #5f9266;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.inf_opisanie {
+    font-family: 'Radio Canada', sans-serif;
+    margin-top: 60px;
+    width: 500px;
+    font-size: 20px;
+}
+
+.button2 {
+    width: 150px;
+    height: 40px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff9f9;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.button2:hover {
+    background: rgba(86, 81, 81, 0.05);
+    font-size: 19px;
+    width: 180px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.inf_blok2 {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.blok {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #403C3B;
+    opacity: 70%;
+    width: 180px;
+    margin-right: 50px;
+    height: 180px;
+    color: white;
+}
+
+.inf_blok2 img {
+    width: 80px;
+}
+
+.inf_blok2 h4:hover {
+    color: #618967;
+}
+
+.blok:hover {
+    color: #618967;
+}
+
+.inf_blok2 img:hover {
+    width: 100px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    background-image: url('img/карта.png');
+    background-size: cover;
+    opacity: 1;
+    height: 600px;
+}
+
+.blok_contact {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 470px;
+    margin-top: 70px;
+    margin-left: 100px;
+    background-color: #403C3B;
+}
+
+.blok_contact h1 {
+    color: white;
+    font-family: 'Radio Canada', sans-serif;
+    text-transform: uppercase;
+    margin-left: 43px;
+}
+
+.blok_contact h2 {
+    margin-left: 80px;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.osn_information {
+    margin-top: -5px;
+    font-weight: 500;
+    margin-left: 80px;
+    font-size: 18px;
+    color: rgb(241, 240, 240);
+    letter-spacing: 2px;
+}
+
+.main_contact {
+    border-bottom: solid 1px rgb(58, 53, 53);
+    border-top: solid 1px rgb(58, 53, 53);
+    position: relative;
+}
+
+.mestoraspolo {
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    width: 30px;
+}
+
+.email {
+    position: absolute;
+    left: 40px;
+    top: 87px;
+    width: 27px;
+}
+
+.bron_stol {
+    background-color: #618967;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    height: 45px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 40px;
+    text-align: center;
+    padding-top: 25px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+
+.bron_stol:hover {
+    font-size: 18px;
+}
+
+.bron {
+    display: flex;
+    flex-direction: row;
+}
+
+.blok_phone {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    color: white;
+}
+
+.phone {
+    margin-top: 55px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-size: 25px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.phone:hover {
+    color: #dbc9c9;
+}
+
+.phone_nadpis {
+    margin-top: -25px;
+    color: white;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+
+.social img {
+    width: 30px;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+.social img:hover {
+    width: 34px;
+}
+
+.social_nadpis {
+    margin-top: 1px;
+    margin-right: 40px;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+}
+
+.mi_zdesi {
+    width: 120px;
+    height: 140px;
+    margin-left: 340px;
+    margin-top: 200px;
+}
+
+.footer {
+    width: 100%;
+    background: linear-gradient(270.7deg, #44403F 0.4%, #211F20 100%);
+    height: 195px;
+    position: relative;
+}
+
+.vverx {
+    position: absolute;
+    top: 51px;
+    left: 40px;
+    width: 64px;
+    height: 64px;
+}
+
+.vverx:hover {
+    position: absolute;
+    top: 46px;
+    left: 35px;
+    width: 70px;
+    height: 70px;
+}
+
+.foorer_container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 159px;
+}
+
+.footer_inf {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.LOGOS2 {
+    font-style: normal;
+    font-size: 35px;
+    line-height: 25px;
+    letter-spacing: 0.15em;
+    color: #5f9266;
+}
+
+.prava {
+    margin-top: -10px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-size: 13px;
+    line-height: 14px;
+    color: #CFCFCF;
+}
+
+.prava2 {
+    list-style-type: none;
+    text-decoration: underline;
+    margin-left: -40px;
+    margin-top: -5px;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.prava2 a {
+    color: #FFFFFF;
+}
+
+.prava2 a:hover {
+    color: #5f9266;
+}
+
+.osn_navigation {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-top: 80px;
+    margin-right: 306px;
+}
+
+.osn_navigation a {
+    text-decoration: none;
+    font-family: 'Gilroy';
+    margin-right: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.osn_navigation a:hover {
+    font-size: 24px;
+    color: #5f9266;
+}
+
+@media screen and (max-width: 1350px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 99px;
+        width: 100%;
+        background: #403C3B;
+        box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
+    }
+
+    .LaVue {
+        width: 100px;
+        height: 25px;
+        margin-left: 10px;
+        margin-top: 28px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 25px;
+        letter-spacing: 0.15em;
+        color: #5f9266;
+    }
+
+    .paspologenie {
+        position: relative;
+    }
+
+    .adrres {
+        background-color: #504B4A;
+        font-family: 'Gilroy';
+        width: 230px;
+        height: 35px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        margin-left: 50px;
+        margin-top: 5px;
+        border-radius: 5px;
+        padding-left: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+    .lupa {
+        position: absolute;
+        right: 12px;
+        top: 15px;
+        width: 19px;
+    }
+
+    .znachok_paspologenie {
+        position: absolute;
+        left: 55px;
+        top: 13px;
+        width: 25px;
+    }
+
+
+    .pozvonit {
+        display: flex;
+        flex-direction: row;
+        margin-left: 40px;
+    }
+
+    .pozvonit img {
+        width: 30px;
+        height: 30px;
+        margin-top: 28px;
+    }
+
+    .pozvonit_phone {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .pozvonit_phone_kontakt {
+        margin-top: 20px;
+        font-style: normal;
+        font-size: 17px;
+        line-height: 20px;
+        color: #CFCFCF;
+    }
+
+    .pozvonit_phone_tel {
+        color: white;
+        margin-top: -15px;
+        font-weight: 400;
+        font-size: 17px;
+    }
+
+    .korzina_header {
+        display: flex;
+        flex-direction: row;
+        background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+        border-radius: 10px;
+        height: 52px;
+        width: 149px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+
+    .korzina_header_nadpis {
+        border-right: solid 1px rgb(11, 2, 2);
+        width: 70px;
+        padding-bottom: 10px;
+        padding-right: 15px;
+        padding-left: 10px;
+        color: white;
+        font-size: 17px;
+    }
+
+    .korzina_header img {
+        width: 32px;
+        height: 32px;
+        margin-left: 8px;
+        margin-top: 10px;
+    }
+
+    .korzina:hover {
+        background: #315336;
+        text-decoration: underline;
+        width: 157px;
+        height: 55px;
+    }
+
+    .menu_ssilki {
+        margin: 0;
+        background-color: #403C3B;
+        height: 210px;
+        display: flex;
+        flex-direction: column;
+        border-bottom: solid 1px rgba(255, 255, 255, 0.08);
+    }
+
+    .menu {
+        font-family: 'Radio Canada', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 100px;
+        margin-right: 50px;
+        font-family: 'Gilroy';
+        padding-left: 0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 21px;
+        color: #FFFFFF;
+        text-decoration: none;
+        margin-top: 0;
+        background-color: #403C3B;
+        list-style-type: none;
+        padding-top: 20px;
+    }
+
+    .knopka_proboval_obertka {
+        display: none;
+    }
+
+    .ALL_FOOD h1 {
+        margin-left: 10px;
+    }
+
+    .ALL_FOOD {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    .container_eda {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 700px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 50px;
+        border-bottom: solid 1px rgba(255, 255, 255, 0.08);
+        padding-bottom: 40px;
+    }
+
+    .eda {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #504B4A;
+        margin-top: 10px;
+    }
+
+    .nazvanie_eda {
+        width: 600px;
+    }
+
+    .opisanie_eda {
+        width: 600px;
+        font-size: 20px;
+    }
+
+    .container {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .inf_blok2 {
+        display: none;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: row;
+        background-image: url('img/карта.png');
+        background-size: cover;
+        opacity: 1;
+        height: 600px;
+    }
+
+    .blok_contact {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        height: 470px;
+        margin-top: 70px;
+        margin-left: 100px;
+        background-color: #403C3B;
+    }
+
+    .blok_contact h1 {
+        color: white;
+        font-family: 'Radio Canada', sans-serif;
+        text-transform: uppercase;
+        margin-left: 43px;
+    }
+
+    .blok_contact h2 {
+        margin-left: 80px;
+        font-size: 16px;
+        color: white;
+        letter-spacing: 2px;
+        margin-top: 20px;
+    }
+
+    .osn_information {
+        margin-top: -5px;
+        font-weight: 500;
+        margin-left: 80px;
+        font-size: 18px;
+        color: rgb(241, 240, 240);
+        letter-spacing: 2px;
+    }
+
+    .main_contact {
+        border-bottom: solid 1px rgb(58, 53, 53);
+        border-top: solid 1px rgb(58, 53, 53);
+        position: relative;
+    }
+
+    .mestoraspolo {
+        position: absolute;
+        left: 40px;
+        top: 20px;
+        width: 30px;
+    }
+
+    .email {
+        position: absolute;
+        left: 40px;
+        top: 87px;
+        width: 27px;
+    }
+
+    .bron_stol {
+        background-color: #618967;
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        color: #FFFFFF;
+        height: 45px;
+        width: 250px;
+        margin-top: 50px;
+        margin-left: 40px;
+        text-align: center;
+        padding-top: 25px;
+        border-radius: 15px;
+        text-transform: uppercase;
+    }
+
+    .bron_stol:hover {
+        font-size: 18px;
+    }
+
+    .bron {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .blok_phone {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        color: white;
+    }
+
+    .phone {
+        margin-top: 55px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-size: 25px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    .phone:hover {
+        color: #dbc9c9;
+    }
+
+    .phone_nadpis {
+        margin-top: -25px;
+        color: white;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: row;
+        margin-left: 150px;
+        margin-top: 25px;
+    }
+
+    .social img {
+        width: 30px;
+        margin-right: 10px;
+        border-radius: 2px;
+    }
+
+    .social img:hover {
+        width: 34px;
+    }
+
+    .social_nadpis {
+        margin-top: 1px;
+        margin-right: 40px;
+        font-style: normal;
+        font-size: 22px;
+        line-height: 19px;
+        color: #FFFFFF;
+        margin-bottom: 35px;
+    }
+
+    .mi_zdesi {
+        display: none;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background: linear-gradient(270.7deg, #44403F 0.4%, #211F20 100%);
+        height: 195px;
+        position: relative;
+    }
+
+    .vverx {
+        position: absolute;
+        top: 51px;
+        left: 40px;
+        width: 44px;
+        height: 44px;
+    }
+
+    .vverx:hover {
+        position: absolute;
+        top: 46px;
+        left: 35px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .foorer_container {
+        display: flex;
+        flex-direction: row;
+        margin-left: 159px;
+    }
+
+    .footer_inf {
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+
+    .LOGOS2 {
+        font-style: normal;
+        font-size: 35px;
+        line-height: 25px;
+        letter-spacing: 0.15em;
+        color: #5f9266;
+    }
+
+    .prava {
+        margin-top: -10px;
+        width: 200px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-size: 13px;
+        line-height: 14px;
+        color: #CFCFCF;
+    }
+
+    .prava2 {
+        list-style-type: none;
+        text-decoration: underline;
+        margin-left: -40px;
+        width: 200px;
+        margin-top: -5px;
+        font-style: normal;
+        font-size: 15px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+
+    .prava2 a {
+        color: #FFFFFF;
+    }
+
+    .prava2 a:hover {
+        color: #5f9266;
+    }
+
+    .osn_navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        margin-top: 20px;
+        height: 100px;
+        margin-right: 10px;
+    }
+
+    .osn_navigation a {
+        text-decoration: none;
+        width: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-right: 40px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    .osn_navigation a:hover {
+        font-size: 24px;
+        color: #5f9266;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 99px;
+        width: 100%;
+        background: #403C3B;
+        box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
+    }
+
+    .LaVue {
+        width: 100px;
+        height: 25px;
+        margin-left: 10px;
+        margin-top: 38px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 25px;
+        letter-spacing: 0.15em;
+        color: #5f9266;
+    }
+
+    .paspologenie {
+        position: relative;
+    }
+
+    .adrres {
+        display: none;
+
+    }
+
+    .lupa {
+        display: none;
+    }
+
+    .znachok_paspologenie {
+        display: none;
+    }
+
+    .pozvonit {
+        display: flex;
+        flex-direction: row;
+        margin-left: 40px;
+    }
+
+    .pozvonit img {
+        display: none;
+    }
+
+    .pozvonit_phone {
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+
+    .pozvonit_phone_kontakt {
+        margin-top: 20px;
+        font-style: normal;
+        font-size: 25px;
+        line-height: 20px;
+        color: #CFCFCF;
+    }
+
+    .pozvonit_phone_tel {
+        color: white;
+        margin-top: -15px;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .korzina_header {
+        display: flex;
+        flex-direction: row;
+        background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+        border-radius: 10px;
+        height: 32px;
+        width: 109px;
+        margin-left: 40px;
+    }
+
+    .korzina_header_nadpis {
+        border-right: none;
+        width: 70px;
+        padding-right: 5px;
+        padding-left: 5px;
+        color: white;
+        font-size: 25px;
+        margin-top: 0px;
+    }
+
+    .korzina_header img {
+        display: none;
+    }
+
+    .korzina:hover {
+        background: #315336;
+        text-decoration: underline;
+        width: 157px;
+        height: 55px;
+    }
+
+    .main {
+        height: 400px;
+    }
+
+    .osn_nadpis {
+        font-size: 40px;
+        width: 500px;
+        height: 40px;
+    }
+
+    .knopka_proboval {
+        margin-left: 140px;
+        margin-top: 90px;
+        transform: rotate(-10.02deg);
+    }
+
+    .ALL_FOOD h1 {
+        margin-left: -220px;
+    }
+
+    .container_eda {
+
+        width: 400px;
+        margin-left: 10px;
+        margin-right: 0;
+        margin-top: 30px;
+        border-bottom: solid 1px rgba(255, 255, 255, 0.08);
+        padding-bottom: 40px;
+    }
+
+    .eda {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #504B4A;
+        margin-top: 10px;
+        width: 400px;
+    }
+
+    .nazvanie_eda {
+        width: 350px;
+    }
+
+    .opisanie_eda {
+        width: 350px;
+    }
+
+    .price_eda {
+        margin-left: -50px;
+
+
+    }
+
+    .container {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .inf_blok2 {
+        display: none;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: row;
+        background-image: url('img/карта.png');
+        background-size: cover;
+        opacity: 1;
+        height: 800px;
+    }
+
+    .blok_contact {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 600px;
+        margin-top: 70px;
+        margin-left: 40px;
+        background-color: #403C3B;
+    }
+
+    .blok_contact h1 {
+        color: white;
+        font-family: 'Radio Canada', sans-serif;
+        text-transform: uppercase;
+        margin-left: 43px;
+    }
+
+    .blok_contact h2 {
+        margin-left: 80px;
+        font-size: 16px;
+        color: white;
+        letter-spacing: 2px;
+        margin-top: 20px;
+    }
+
+    .osn_information {
+        margin-top: -5px;
+        font-weight: 500;
+        margin-left: 80px;
+        font-size: 18px;
+        color: rgb(241, 240, 240);
+        letter-spacing: 2px;
+    }
+
+    .main_contact {
+        border-bottom: solid 1px rgb(58, 53, 53);
+        border-top: solid 1px rgb(58, 53, 53);
+        position: relative;
+    }
+
+    .mestoraspolo {
+        position: absolute;
+        left: 40px;
+        top: 20px;
+        width: 30px;
+    }
+
+    .email {
+        position: absolute;
+        left: 40px;
+        top: 87px;
+        width: 27px;
+    }
+
+    .bron_stol {
+        background-color: #618967;
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        color: #FFFFFF;
+        height: 45px;
+        width: 250px;
+        margin-top: 50px;
+        margin-left: 40px;
+        text-align: center;
+        padding-top: 25px;
+        border-radius: 15px;
+        text-transform: uppercase;
+
+    }
+
+    .bron_stol:hover {
+        font-size: 18px;
+    }
+
+    .bron {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blok_phone {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        color: white;
+    }
+
+    .phone {
+        margin-top: 55px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-size: 25px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    .phone:hover {
+        color: #dbc9c9;
+    }
+
+    .phone_nadpis {
+        margin-top: -25px;
+        color: white;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: row;
+        margin-left: 15px;
+        margin-top: 25px;
+    }
+
+    .social img {
+        width: 30px;
+        margin-right: 10px;
+        border-radius: 2px;
+    }
+
+    .social img:hover {
+        width: 34px;
+    }
+
+    .social_nadpis {
+        margin-top: 1px;
+        margin-right: 40px;
+        font-style: normal;
+        font-size: 22px;
+        line-height: 19px;
+        color: #FFFFFF;
+        margin-bottom: 35px;
+    }
+
+    .mi_zdesi {
+        width: 120px;
+        height: 140px;
+        margin-left: 340px;
+        margin-top: 200px;
+    }
+
+    .information {
+        background-color: #403C3B;
+        height: 620px;
+    }
+
+    .container {
+        width: 100%;
+        height: 600px;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    .inf {
+        padding-top: 30px;
+        color: white;
+        margin-left: 50px;
+        line-height: 18px;
+
+    }
+
+    .inf_nazvanie {
+        font-size: 42px;
+        margin-top: 30px;
+    }
+
+    .inf_opisanie {
+        font-family: 'Radio Canada', sans-serif;
+        margin-top: 30px;
+        width: 400px;
+        font-size: 20px;
+    }
+
+    .button2 {
+        width: 200px;
+        height: 70px;
+        font-size: 23px;
+
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background: linear-gradient(270.7deg, #44403F 0.4%, #211F20 100%);
+        height: 145px;
+        position: relative;
+    }
+
+    .vverx {
+        position: absolute;
+        top: 51px;
+        left: 20px;
+        width: 44px;
+        height: 44px;
+    }
+
+    .vverx:hover {
+        position: absolute;
+        top: 46px;
+        left: 35px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .foorer_container {
+        display: flex;
+        flex-direction: row;
+        margin-left: 129px;
+    }
+
+    .footer_inf {
+        display: none;
+    }
+
+    .LOGOS2 {
+        font-style: normal;
+        font-size: 35px;
+        line-height: 25px;
+        letter-spacing: 0.15em;
+        color: #5f9266;
+    }
+
+    .prava {
+        margin-top: -10px;
+        width: 200px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-size: 13px;
+        line-height: 14px;
+        color: #CFCFCF;
+    }
+
+    .prava2 {
+        list-style-type: none;
+        text-decoration: underline;
+        margin-left: -40px;
+        width: 200px;
+        margin-top: -5px;
+        font-style: normal;
+        font-size: 15px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+
+    .prava2 a {
+        color: #FFFFFF;
+    }
+
+    .prava2 a:hover {
+        color: #5f9266;
+    }
+
+    .osn_navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1px;
+        margin-top: 2px;
+        height: 100px;
+        margin-right: 10px;
+    }
+
+    .osn_navigation a {
+        text-decoration: none;
+        width: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-right: 40px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+
+    .osn_navigation a:hover {
+        font-size: 24px;
+        color: #5f9266;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 99px;
+        width: 100%;
+        background: #403C3B;
+        box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
+    }
+
+    .LaVue {
+        width: 100px;
+        height: 25px;
+        margin-left: 1px;
+        margin-top: 38px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 25px;
+        letter-spacing: 0.15em;
+        color: #5f9266;
+        margin-right: 20px;
+    }
+
+    .paspologenie {
+        position: relative;
+    }
+
+    .adrres {
+        display: none;
+
+    }
+
+    .lupa {
+        display: none;
+    }
+
+    .znachok_paspologenie {
+        display: none;
+    }
+
+    .pozvonit {
+        display: none;
+    }
+
+    .pozvonit img {
+        display: none;
+    }
+
+    .pozvonit_phone {
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+
+    .pozvonit_phone_kontakt {
+        margin-top: 20px;
+        font-style: normal;
+        font-size: 25px;
+        line-height: 20px;
+        color: #CFCFCF;
+    }
+
+    .pozvonit_phone_tel {
+        color: white;
+        margin-top: -15px;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .korzina_header {
+        display: flex;
+        flex-direction: row;
+        background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+        border-radius: 10px;
+        height: 52px;
+        width: 109px;
+        margin-left: 60px;
+        margin-right: 10px;
+
+    }
+
+    .korzina_header_nadpis {
+        border-right: none;
+        width: 70px;
+        padding-right: 15px;
+        padding-left: 10px;
+        color: white;
+        font-size: 25px;
+        padding-top: 10px;
+        margin-top: 0px;
+    }
+
+    .korzina_header img {
+        display: none;
+    }
+
+    .korzina:hover {
+        background: #315336;
+        text-decoration: underline;
+        width: 109px;
+        height: 35px;
+    }
+
+    .main {
+        height: 400px;
+    }
+
+    .osn_nadpis {
+        font-size: 30px;
+        width: 350px;
+        height: 40px;
+    }
+
+    .knopka_proboval {
+        margin-left: 90px;
+        margin-top: 50px;
+        transform: rotate(-10.02deg);
+    }
+
+    .ALL_FOOD h1 {
+        margin-left: 10px;
+    }
+
+    .container_eda {
+
+        width: 350px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 30px;
+        border-bottom: solid 1px rgba(255, 255, 255, 0.08);
+        padding-bottom: 40px;
+    }
+
+    .eda {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #504B4A;
+        margin-top: 10px;
+        width: 350px;
+    }
+
+    .nazvanie_eda {
+        width: 320px;
+        font-size: 25px;
+    }
+
+    .opisanie_eda {
+        width: 320px;
+        font-size: 22px;
+    }
+
+    .price_eda {
+        margin-left: -70px;
+    }
+
+    .container {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .inf_blok2 {
+        display: none;
+    }
+
+    .inf {
+        margin-left: 10px;
+    }
+
+    .inf_opisanie {
+        width: 350px;
+        margin-left: 0;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: row;
+        background-image: url('img/карта.png');
+        background-size: cover;
+        opacity: 1;
+        height: 800px;
+    }
+
+    .blok_contact {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 600px;
+        margin-top: 70px;
+        margin-left: 0;
+        background-color: #403C3B;
+    }
+
+    .blok_contact h1 {
+        color: white;
+        font-family: 'Radio Canada', sans-serif;
+        text-transform: uppercase;
+        margin-left: 43px;
+    }
+
+    .blok_contact h2 {
+        margin-left: 80px;
+        font-size: 16px;
+        color: white;
+        letter-spacing: 2px;
+        margin-top: 20px;
+    }
+
+    .osn_information {
+        margin-top: -5px;
+        font-weight: 500;
+        margin-left: 80px;
+        font-size: 18px;
+        color: rgb(241, 240, 240);
+        letter-spacing: 2px;
+    }
+
+    .main_contact {
+        border-bottom: solid 1px rgb(58, 53, 53);
+        border-top: solid 1px rgb(58, 53, 53);
+        position: relative;
+    }
+
+    .mestoraspolo {
+        position: absolute;
+        left: 40px;
+        top: 20px;
+        width: 30px;
+    }
+
+    .email {
+        position: absolute;
+        left: 40px;
+        top: 87px;
+        width: 27px;
+    }
+
+    .bron_stol {
+        background-color: #618967;
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        color: #FFFFFF;
+        height: 45px;
+        width: 250px;
+        margin-top: 50px;
+        margin-left: 40px;
+        text-align: center;
+        padding-top: 25px;
+        border-radius: 15px;
+        text-transform: uppercase;
+
+    }
+
+    .bron_stol:hover {
+        font-size: 18px;
+    }
+
+    .bron {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blok_phone {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        color: white;
+    }
+
+    .phone {
+        margin-top: 55px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-size: 25px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    .phone:hover {
+        color: #dbc9c9;
+    }
+
+    .phone_nadpis {
+        margin-top: -25px;
+        color: white;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: row;
+        margin-left: 15px;
+        margin-top: 25px;
+    }
+
+    .social img {
+        width: 30px;
+        margin-right: 10px;
+        border-radius: 2px;
+    }
+
+    .social img:hover {
+        width: 34px;
+    }
+
+    .social_nadpis {
+        margin-top: 1px;
+        margin-right: 40px;
+        font-style: normal;
+        font-size: 22px;
+        line-height: 19px;
+        color: #FFFFFF;
+        margin-bottom: 35px;
+    }
+
+    .mi_zdesi {
+        width: 120px;
+        height: 140px;
+        margin-left: 340px;
+        margin-top: 200px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background: linear-gradient(270.7deg, #44403F 0.4%, #211F20 100%);
+        height: 145px;
+        position: relative;
+    }
+
+    .vverx {
+        position: absolute;
+        top: 41px;
+        left: 20px;
+        width: 64px;
+        height: 64px;
+    }
+
+    .vverx:hover {
+        position: absolute;
+        top: 46px;
+        left: 35px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .foorer_container {
+        display: flex;
+        flex-direction: row;
+        margin-left: 129px;
+    }
+
+    .footer_inf {
+        display: none;
+    }
+
+    .LOGOS2 {
+        font-style: normal;
+        font-size: 35px;
+        line-height: 25px;
+        letter-spacing: 0.15em;
+        color: #5f9266;
+    }
+
+    .prava {
+        margin-top: -10px;
+        width: 200px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-size: 13px;
+        line-height: 14px;
+        color: #CFCFCF;
+    }
+
+    .prava2 {
+        list-style-type: none;
+        text-decoration: underline;
+        margin-left: -40px;
+        width: 200px;
+        margin-top: -5px;
+        font-style: normal;
+        font-size: 15px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+
+    .prava2 a {
+        color: #FFFFFF;
+    }
+
+    .prava2 a:hover {
+        color: #5f9266;
+    }
+
+    .osn_navigation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1px;
+        margin-top: 2px;
+        height: 100px;
+        margin-right: 10px;
+    }
+
+    .osn_navigation a {
+        text-decoration: none;
+        width: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-right: 40px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+
+    .osn_navigation a:hover {
+        font-size: 24px;
+        color: #5f9266;
+    }
+}

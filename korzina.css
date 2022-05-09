@@ -1,0 +1,1932 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 99px;
+    background: #403C3B;
+    box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
+}
+
+.LaVue {
+    width: 100px;
+    height: 25px;
+    margin-left: 100px;
+    margin-top: 38px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 25px;
+    letter-spacing: 0.15em;
+    color: #5f9266;
+}
+
+.paspologenie {
+    position: relative;
+}
+
+.adrres {
+    background-color: #504B4A;
+    font-family: 'Gilroy';
+    width: 370px;
+    height: 35px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 90px;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding-left: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.lupa {
+    position: absolute;
+    right: 15px;
+    top: 35px;
+    width: 25px;
+}
+
+.znachok_paspologenie {
+    position: absolute;
+    left: 95px;
+    top: 35px;
+    width: 25px;
+}
+
+
+.pozvonit {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+
+.pozvonit img {
+    width: 40px;
+    height: 40px;
+    margin-top: 28px;
+}
+
+.pozvonit img:hover {
+    border: solid 1px #5f9266;
+}
+
+.pozvonit_phone {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.pozvonit_phone_tel:hover {
+    text-decoration: underline;
+}
+
+.pozvonit_phone_kontakt {
+    margin-top: 28px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #CFCFCF;
+}
+
+.pozvonit_phone_tel {
+    color: white;
+    margin-top: -15px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.korzina_header {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    border-radius: 10px;
+    height: 52px;
+    width: 149px;
+    margin-left: 210px;
+    margin-top: 25px;
+}
+
+.korzina_header_nadpis {
+    border-right: solid 1px rgb(11, 2, 2);
+    width: 70px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 10px;
+    color: white;
+    font-size: 17px;
+}
+
+.korzina_header img {
+    width: 32px;
+    height: 32px;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.korzina_header:hover {
+    background: #315336;
+    text-decoration: underline;
+    width: 157px;
+    height: 55px;
+}
+
+.menu_ssilki {
+    margin: 0;
+    background: #403C3B;
+    box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.08);
+    border-top: solid 1px rgba(255, 255, 255, 0.08);
+}
+
+.menu {
+    font-family: 'Radio Canada', sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 50px;
+    font-family: 'Gilroy';
+    padding-left: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 0;
+    background-color: #403C3B;
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+ul li a {
+    color: #FFFFFF;
+    text-decoration: dotted;
+
+    padding-right: 40px;
+}
+
+ul li a:hover {
+    border-bottom: solid green 2px;
+    padding-bottom: 37px;
+    padding-left: 35px;
+}
+
+.main_korsina {
+    background: linear-gradient(360deg, #211F20 0%, #44403F 100%);
+    height: 1450px;
+}
+
+.pereiti_k_vibory:hover {
+    font-size: 18px;
+}
+
+.main_korsina h1 {
+    margin-top: 60px;
+    margin-left: 150px;
+    padding-left: 20px;
+    border-left: solid #618967 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.eda_v_korzine {
+    display: flex;
+    flex-direction: column;
+}
+
+.bludo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+    border-radius: 10px;
+}
+
+.bludo_img {
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 150px;
+}
+
+.opisanie {
+    display: flex;
+    flex-direction: column;
+}
+
+.opisanie_h2 {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    color: white;
+}
+
+.opisanie_p {
+    margin-left: 50px;
+    margin-top: -10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    width: 400px;
+    line-height: 14px;
+    color: #A6A7AB;
+}
+
+.add_or_no {
+    display: flex;
+    flex-direction: row;
+}
+
+.kol_blud- {
+    width: 40px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.kol {
+    color: white;
+    font-size: 23px;
+    margin-top: 60px;
+    margin-left: 25px;
+}
+
+.kol_blud-:hover {
+    border: solid 1px grey;
+}
+
+.kol_blud_plus {
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.kol_blud_plus:hover {
+    border: solid 1px grey;
+}
+
+.bludo_price {
+    margin-top: 59px;
+    margin-left: 175px;
+    color: #fff;
+    font-size: 21px;
+}
+
+.krestik {
+    margin-top: 42px;
+    margin-left: 70px;
+    width: 52px;
+    height: 54px;
+}
+
+.krestik:hover {
+    border: solid 1px grey;
+}
+
+.add_zakaz {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.add_bludo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-right: 40px;
+    border-right: solid 1px grey;
+}
+
+.add_bludo h2 {
+    color: white;
+    text-align: center;
+}
+
+.add_bludo_img {
+    width: 250px;
+    height: 170px;
+
+}
+
+.add {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 14px;
+    color: #C6CED1;
+}
+
+.add_bludo_plus {
+    margin-top: -9px;
+    margin-left: 18px;
+    width: 40px;
+    height: 35px;
+}
+
+.add:hover {
+    color: #618967;
+    text-transform: uppercase;
+}
+
+.add_price {
+    text-align: center;
+    color: white;
+    font-size: 21px;
+}
+
+.blok_oforml {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+    border-radius: 10px;
+    height: 105px;
+    margin-top: 65px;
+    width: 700px;
+    margin-left: 390px;
+}
+
+.podchet {
+    display: flex;
+    flex-direction: column;
+    margin-left: 28px;
+}
+
+.itogo {
+    font-size: 21px;
+    color: #A6A7AB;
+}
+
+.free_dostavka {
+    color: white;
+    margin-top: -12px;
+}
+
+.min_dost {
+    color: white;
+    margin-top: -12px;
+}
+
+.knopka_oform {
+    margin-top: 22px;
+    margin-left: 150px;
+    height: 35px;
+    width: 209px;
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    padding-bottom: 6px;
+    padding-top: 20px;
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    border-radius: 10px;
+}
+
+.knopka_oform:hover {
+    text-transform: uppercase;
+    background: #315336;
+}
+
+.footer {
+    width: 100%;
+    background: linear-gradient(270.7deg, #44403F 0.4%, #211F20 100%);
+    height: 195px;
+    position: relative;
+}
+
+.vverx {
+    position: absolute;
+    top: 51px;
+    left: 40px;
+    width: 64px;
+    height: 64px;
+}
+
+.vverx:hover {
+    position: absolute;
+    top: 46px;
+    left: 35px;
+    width: 70px;
+    height: 70px;
+}
+
+.foorer_container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 159px;
+}
+
+.footer_inf {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.LOGOS2 {
+    font-style: normal;
+    font-size: 35px;
+    line-height: 25px;
+    letter-spacing: 0.15em;
+    color: #5f9266;
+}
+
+.prava {
+    margin-top: -10px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-size: 13px;
+    line-height: 14px;
+    color: #CFCFCF;
+}
+
+.prava2 {
+    list-style-type: none;
+    text-decoration: underline;
+    margin-left: -40px;
+    margin-top: -5px;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.prava2 a {
+    color: #FFFFFF;
+}
+
+.prava2 a:hover {
+    color: #5f9266;
+}
+
+.osn_navigation {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-top: 80px;
+    margin-right: 306px;
+}
+
+.osn_navigation a {
+    text-decoration: none;
+    font-family: 'Gilroy';
+    margin-right: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.osn_navigation a:hover {
+    font-size: 24px;
+    color: #5f9266;
+}
+
+@media screen and (max-width: 1350px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 99px;
+        width: 100%;
+        background: #403C3B;
+        box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
+    }
+
+    .LaVue {
+        width: 100px;
+        height: 25px;
+        margin-left: 10px;
+        margin-top: 28px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 25px;
+        letter-spacing: 0.15em;
+        color: #5f9266;
+    }
+
+    .paspologenie {
+        position: relative;
+    }
+
+    .adrres {
+        background-color: #504B4A;
+        font-family: 'Gilroy';
+        width: 230px;
+        height: 35px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        margin-left: 50px;
+        margin-top: 5px;
+        border-radius: 5px;
+        padding-left: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+    .lupa {
+        position: absolute;
+        right: 12px;
+        top: 15px;
+        width: 19px;
+    }
+
+    .znachok_paspologenie {
+        position: absolute;
+        left: 55px;
+        top: 13px;
+        width: 25px;
+    }
+
+
+    .pozvonit {
+        display: flex;
+        flex-direction: row;
+        margin-left: 40px;
+    }
+
+    .pozvonit img {
+        width: 30px;
+        height: 30px;
+        margin-top: 28px;
+    }
+
+    .pozvonit_phone {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .pozvonit_phone_kontakt {
+        margin-top: 20px;
+        font-style: normal;
+        font-size: 17px;
+        line-height: 20px;
+        color: #CFCFCF;
+    }
+
+    .pozvonit_phone_tel {
+        color: white;
+        margin-top: -15px;
+        font-weight: 400;
+        font-size: 17px;
+    }
+
+    .korzina_header {
+        display: flex;
+        flex-direction: row;
+        background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+        border-radius: 10px;
+        height: 52px;
+        width: 149px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+
+    .korzina_header_nadpis {
+        border-right: solid 1px rgb(11, 2, 2);
+        width: 70px;
+        padding-bottom: 10px;
+        padding-right: 15px;
+        padding-left: 10px;
+        color: white;
+        font-size: 17px;
+    }
+
+    .korzina_header img {
+        width: 32px;
+        height: 32px;
+        margin-left: 8px;
+        margin-top: 10px;
+    }
+
+    .korzina:hover {
+        background: #315336;
+        text-decoration: underline;
+        width: 157px;
+        height: 55px;
+    }
+
+    .menu_ssilki {
+        margin: 0;
+        background-color: #403C3B;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        border-bottom: solid 1px rgba(255, 255, 255, 0.08);
+    }
+
+    .menu {
+        font-family: 'Radio Canada', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 100px;
+        margin-right: 50px;
+        font-family: 'Gilroy';
+        padding-left: 0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 21px;
+        color: #FFFFFF;
+        text-decoration: none;
+        margin-top: 0;
+        background-color: #403C3B;
+        list-style-type: none;
+        padding-top: 20px;
+    }
+
+    .main_korsina {
+        background: linear-gradient(360deg, #211F20 0%, #44403F 100%);
+        height: 3900px;
+
+    }
+
+    .pereiti_k_vibory:hover {
+        font-size: 18px;
+    }
+
+    .main_korsina h1 {
+        margin-top: 60px;
+        margin-left: 150px;
+        padding-left: 20px;
+        border-left: solid #618967 3px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .eda_v_korzine {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bludo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-top: 50px;
+        margin-left: 80px;
+        margin-right: 80px;
+        background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+        border-radius: 10px;
+    }
+
+    .bludo_img {
+        margin-top: 50px;
+        margin-left: 25px;
+        margin-bottom: 10px;
+        width: 400px;
+        height: 300px;
+    }
+
+    .opisanie {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .opisanie_h2 {
+        margin-top: 15px;
+        margin-left: 20px;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .opisanie_p {
+        margin-left: 20px;
+        margin-top: -10px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 14px;
+        color: #A6A7AB;
+    }
+
+    .add_or_no {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .kol_blud- {
+        width: 40px;
+        height: 40px;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+
+    .kol {
+        color: white;
+        font-size: 23px;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    .kol_blud-:hover {
+        border: solid 1px grey;
+    }
+
+    .kol_blud_plus {
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+    .kol_blud_plus:hover {
+        border: solid 1px grey;
+    }
+
+    .bludo_price {
+        margin-top: 23px;
+        margin-left: 60px;
+        color: #fff;
+        font-size: 17px;
+    }
+
+    .krestik {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 2px;
+        margin-left: 70px;
+        width: 52px;
+        height: 54px;
+    }
+
+    .krestik:hover {
+        border: solid 1px grey;
+    }
+
+    .add_zakaz {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .add_bludo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+        width: 550px;
+        border-radius: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        border-right: solid 1px grey;
+    }
+
+    .add_bludo h2 {
+        color: white;
+        text-align: center;
+    }
+
+    .add_bludo_img {
+        width: 350px;
+        height: 270px;
+    }
+
+    .add {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 50px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 14px;
+        color: #C6CED1;
+    }
+
+    .add_bludo_plus {
+        margin-top: -9px;
+        margin-left: 18px;
+        width: 40px;
+        height: 35px;
+    }
+
+    .add:hover {
+        color: #618967;
+        text-transform: uppercase;
+    }
+
+    .add_price {
+        text-align: center;
+        color: white;
+        font-size: 25px;
+    }
+
+    .f {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blok_oforml {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+        border-radius: 10px;
+        height: 235px;
+        margin-top: 65px;
+        width: 500px;
+        margin-left: 10px;
+    }
+
+    .podchet {
+        display: flex;
+        flex-direction: column;
+        margin-left: 28px;
+    }
+
+    .itogo {
+        font-size: 25px;
+        color: #A6A7AB;
+    }
+
+    .free_dostavka {
+        color: white;
+        margin-top: -12px;
+    }
+
+    .min_dost {
+        color: white;
+        margin-top: -12px;
+    }
+
+    .knopka_oform {
+        margin-top: 22px;
+        margin-left: 28px;
+        height: 35px;
+        width: 209px;
+        font-size: 19px;
+        color: white;
+        text-align: center;
+        padding-bottom: 6px;
+        padding-top: 20px;
+        background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+        border-radius: 10px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background: linear-gradient(270.7deg, #44403F 0.4%, #211F20 100%);
+        height: 195px;
+        position: relative;
+    }
+
+    .vverx {
+        position: absolute;
+        top: 51px;
+        left: 40px;
+        width: 44px;
+        height: 44px;
+    }
+
+    .vverx:hover {
+        position: absolute;
+        top: 46px;
+        left: 35px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .foorer_container {
+        display: flex;
+        flex-direction: row;
+        margin-left: 159px;
+    }
+
+    .footer_inf {
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+
+    .LOGOS2 {
+        font-style: normal;
+        font-size: 35px;
+        line-height: 25px;
+        letter-spacing: 0.15em;
+        color: #5f9266;
+    }
+
+    .prava {
+        margin-top: -10px;
+        width: 200px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-size: 13px;
+        line-height: 14px;
+        color: #CFCFCF;
+    }
+
+    .prava2 {
+        list-style-type: none;
+        text-decoration: underline;
+        margin-left: -40px;
+        width: 200px;
+        margin-top: -5px;
+        font-style: normal;
+        font-size: 15px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+
+    .prava2 a {
+        color: #FFFFFF;
+    }
+
+    .prava2 a:hover {
+        color: #5f9266;
+    }
+
+    .osn_navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        margin-top: 20px;
+        height: 100px;
+        margin-right: 10px;
+    }
+
+    .osn_navigation a {
+        text-decoration: none;
+        width: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-right: 40px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
+    .osn_navigation a:hover {
+        font-size: 24px;
+        color: #5f9266;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 99px;
+        width: 100%;
+        background: #403C3B;
+        box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
+    }
+
+    .LaVue {
+        width: 100px;
+        height: 25px;
+        margin-left: 10px;
+        margin-top: 38px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 25px;
+        letter-spacing: 0.15em;
+        color: #5f9266;
+    }
+
+    .paspologenie {
+        position: relative;
+    }
+
+    .adrres {
+        display: none;
+    }
+
+    .lupa {
+        display: none;
+    }
+
+    .znachok_paspologenie {
+        display: none;
+    }
+
+    .pozvonit {
+        display: flex;
+        flex-direction: row;
+        margin-left: 40px;
+    }
+
+    .pozvonit img {
+        display: none;
+    }
+
+    .pozvonit_phone {
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+
+    .pozvonit_phone_kontakt {
+        margin-top: 20px;
+        font-style: normal;
+        font-size: 25px;
+        line-height: 20px;
+        color: #CFCFCF;
+    }
+
+    .pozvonit_phone_tel {
+        color: white;
+        margin-top: -15px;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .korzina_header {
+        display: flex;
+        flex-direction: row;
+        background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+        border-radius: 10px;
+        height: 32px;
+        width: 109px;
+        margin-left: 40px;
+    }
+
+    .korzina_header_nadpis {
+        border-right: none;
+        width: 70px;
+        padding-right: 5px;
+        padding-left: 5px;
+        color: white;
+        font-size: 25px;
+        margin-top: 0px;
+    }
+
+    .korzina_header img {
+        display: none;
+    }
+
+    .korzina:hover {
+        background: #315336;
+        text-decoration: underline;
+        width: 157px;
+        height: 55px;
+    }
+
+    .main_korsina {
+        background: linear-gradient(360deg, #211F20 0%, #44403F 100%);
+        height: 5790px
+    }
+
+    .pereiti_k_vibory:hover {
+        font-size: 23px;
+    }
+
+    .main_korsina h1 {
+        margin-top: 60px;
+        margin-left: 100px;
+        padding-left: 20px;
+        border-left: solid #618967 3px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .eda_v_korzine {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bludo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 680px;
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 1px;
+        background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+        border-radius: 10px;
+    }
+
+    .bludo_img {
+        margin-top: 60px;
+        margin-left: 0;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 500px;
+    }
+
+    .opisanie {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .opisanie_h2 {
+        margin-top: 15px;
+        margin-left: 20px;
+        font-style: normal;
+        font-size: 30px;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .opisanie_p {
+        margin-left: 20px;
+        margin-top: -10px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 25px;
+        color: #A6A7AB;
+    }
+
+    .add_or_no {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .kol_blud- {
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+
+    .kol {
+        color: white;
+        font-size: 23px;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    .kol_blud-:hover {
+        border: solid 1px grey;
+    }
+
+    .kol_blud_plus {
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+    .kol_blud_plus:hover {
+        border: solid 1px grey;
+    }
+
+    .bludo_price {
+        margin-top: 27px;
+        margin-left: 60px;
+        color: #fff;
+        font-size: 27px;
+    }
+
+    .krestik {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 2px;
+        margin-left: 70px;
+        width: 52px;
+        height: 54px;
+    }
+
+    .krestik:hover {
+        border: solid 1px grey;
+    }
+
+    .add_zakaz {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .add_bludo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+        width: 480px;
+        border-radius: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        border-right: solid 1px grey;
+        margin-left: 20px;
+    }
+
+    .add_bludo h2 {
+        color: white;
+        text-align: center;
+    }
+
+    .add_bludo_img {
+        width: 100%;
+        height: 500px;
+    }
+
+    .add {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 50px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 14px;
+        color: #C6CED1;
+    }
+
+    .add_bludo_nazv {
+        font-size: 32px;
+    }
+
+    .add_bludo_plus {
+        margin-top: -9px;
+        margin-left: 18px;
+        width: 40px;
+        height: 35px;
+    }
+
+    .add:hover {
+        color: #618967;
+        text-transform: uppercase;
+    }
+
+    .add_price {
+        text-align: center;
+        color: white;
+        font-size: 29px;
+    }
+
+    .f {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blok_oforml {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+        border-radius: 10px;
+        height: 335px;
+        margin-top: 65px;
+        width: 490px;
+        margin-left: -20px;
+    }
+
+    .podchet {
+        display: flex;
+        flex-direction: column;
+        margin-left: 32px;
+    }
+
+    .itogo {
+        font-size: 25px;
+        color: #A6A7AB;
+    }
+
+    .free_dostavka {
+        color: white;
+        margin-top: -12px;
+        font-size: 28px;
+    }
+
+    .min_dost {
+        font-size: 28px;
+        color: white;
+        margin-top: -12px;
+    }
+
+    .knopka_oform {
+        margin-top: 22px;
+        margin-left: 28px;
+        height: 55px;
+        width: 259px;
+        font-size: 27px;
+        color: white;
+        text-align: center;
+        padding-bottom: 6px;
+        padding-top: 20px;
+        background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+        border-radius: 10px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background: linear-gradient(270.7deg, #44403F 0.4%, #211F20 100%);
+        height: 145px;
+        position: relative;
+    }
+
+    .vverx {
+        position: absolute;
+        top: 51px;
+        left: 20px;
+        width: 44px;
+        height: 44px;
+    }
+
+    .vverx:hover {
+        position: absolute;
+        top: 46px;
+        left: 35px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .foorer_container {
+        display: flex;
+        flex-direction: row;
+        margin-left: 129px;
+    }
+
+    .footer_inf {
+        display: none;
+    }
+
+    .LOGOS2 {
+        font-style: normal;
+        font-size: 35px;
+        line-height: 25px;
+        letter-spacing: 0.15em;
+        color: #5f9266;
+    }
+
+    .prava {
+        margin-top: -10px;
+        width: 200px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-size: 13px;
+        line-height: 14px;
+        color: #CFCFCF;
+    }
+
+    .prava2 {
+        list-style-type: none;
+        text-decoration: underline;
+        margin-left: -40px;
+        width: 200px;
+        margin-top: -5px;
+        font-style: normal;
+        font-size: 15px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+
+    .prava2 a {
+        color: #FFFFFF;
+    }
+
+    .prava2 a:hover {
+        color: #5f9266;
+    }
+
+    .osn_navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1px;
+        margin-top: 2px;
+        height: 100px;
+        margin-right: 10px;
+    }
+
+    .osn_navigation a {
+        text-decoration: none;
+        width: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-right: 40px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+
+    .osn_navigation a:hover {
+        font-size: 24px;
+        color: #5f9266;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 99px;
+        width: 100%;
+        background: #403C3B;
+        box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
+    }
+
+    .LaVue {
+        width: 100px;
+        height: 25px;
+        margin-left: 1px;
+        margin-top: 38px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 25px;
+        letter-spacing: 0.15em;
+        color: #5f9266;
+        margin-right: 20px;
+    }
+
+    .paspologenie {
+        position: relative;
+    }
+
+    .adrres {
+        display: none;
+    }
+
+    .lupa {
+        display: none;
+    }
+
+    .znachok_paspologenie {
+        display: none;
+    }
+
+    .pozvonit {
+        display: none;
+    }
+
+    .pozvonit img {
+        display: none;
+    }
+
+    .pozvonit_phone {
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+
+    .pozvonit_phone_kontakt {
+        margin-top: 20px;
+        font-style: normal;
+        font-size: 25px;
+        line-height: 20px;
+        color: #CFCFCF;
+    }
+
+    .pozvonit_phone_tel {
+        color: white;
+        margin-top: -15px;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .korzina_header {
+        display: flex;
+        flex-direction: row;
+        background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+        border-radius: 10px;
+        height: 52px;
+        width: 109px;
+        margin-left: 60px;
+        margin-right: 10px;
+    }
+
+    .korzina_header_nadpis {
+        border-right: none;
+        width: 70px;
+        padding-right: 15px;
+        padding-left: 10px;
+        color: white;
+        font-size: 25px;
+        padding-top: 10px;
+        margin-top: 0px;
+    }
+
+    .korzina_header img {
+        display: none;
+    }
+
+    .main_korsina {
+        background: linear-gradient(360deg, #211F20 0%, #44403F 100%);
+        height: 4590px
+    }
+
+    .pereiti_k_vibory:hover {
+        font-size: 23px;
+    }
+
+    .main_korsina h1 {
+        margin-top: 60px;
+        margin-left: 100px;
+        padding-left: 20px;
+        border-left: solid #618967 3px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .eda_v_korzine {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bludo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        margin-top: 50px;
+        margin-left: 1px;
+        margin-right: 1px;
+        background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+        border-radius: 10px;
+    }
+
+    .bludo_img {
+        margin-top: 60px;
+        margin-left: 0;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 300px;
+    }
+
+    .opisanie {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .opisanie_h2 {
+        margin-top: 15px;
+        margin-left: 5px;
+        text-align: center;
+        font-style: normal;
+        font-size: 30px;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .opisanie_p {
+        display: none;
+    }
+
+    .add_or_no {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .kol_blud- {
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+
+    .kol {
+        color: white;
+        font-size: 23px;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    .kol_blud-:hover {
+        border: solid 1px grey;
+    }
+
+    .kol_blud_plus {
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+    .kol_blud_plus:hover {
+        border: solid 1px grey;
+    }
+
+    .bludo_price {
+        margin-top: 27px;
+        margin-left: 60px;
+        color: #fff;
+        font-size: 27px;
+    }
+
+    .krestik {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 2px;
+        margin-left: 70px;
+        width: 52px;
+        height: 54px;
+    }
+
+    .krestik:hover {
+        border: solid 1px grey;
+    }
+
+    .add_zakaz {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .add_bludo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+        width: 350px;
+        border-radius: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        border-right: solid 1px grey;
+        margin-left: 1px;
+    }
+
+    .add_bludo h2 {
+        color: white;
+        text-align: center;
+    }
+
+    .add_bludo_img {
+        width: 100%;
+        height: 350px;
+    }
+
+    .add {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 50px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 14px;
+        color: #C6CED1;
+    }
+
+    .add_bludo_plus {
+        margin-top: -9px;
+        margin-left: 18px;
+        width: 40px;
+        height: 35px;
+    }
+
+    .add:hover {
+        color: #618967;
+        text-transform: uppercase;
+    }
+
+    .add_price {
+        text-align: center;
+        color: white;
+        font-size: 25px;
+    }
+
+    .blok_oforml {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(90deg, #494544 0%, #504B4A 100%);
+        border-radius: 10px;
+        height: 335px;
+        margin-top: 65px;
+        width: 350px;
+        margin-left: -20px;
+    }
+
+    .podchet {
+        display: flex;
+        flex-direction: column;
+        margin-left: 32px;
+    }
+
+    .itogo {
+        font-size: 25px;
+        color: #A6A7AB;
+    }
+
+    .free_dostavka {
+        color: white;
+        margin-top: -12px;
+        font-size: 28px;
+    }
+
+    .min_dost {
+        font-size: 28px;
+        color: white;
+        margin-top: -12px;
+    }
+
+    .knopka_oform {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+        height: 55px;
+        width: 259px;
+        font-size: 27px;
+        color: white;
+        text-align: center;
+        padding-bottom: 6px;
+        padding-top: 20px;
+        background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+        border-radius: 10px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background: linear-gradient(270.7deg, #44403F 0.4%, #211F20 100%);
+        height: 145px;
+        position: relative;
+    }
+
+    .vverx {
+        position: absolute;
+        top: 41px;
+        left: 20px;
+        width: 64px;
+        height: 64px;
+    }
+
+    .vverx:hover {
+        position: absolute;
+        top: 46px;
+        left: 35px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .foorer_container {
+        display: flex;
+        flex-direction: row;
+        margin-left: 129px;
+    }
+
+    .footer_inf {
+        display: none;
+    }
+
+    .LOGOS2 {
+        font-style: normal;
+        font-size: 35px;
+        line-height: 25px;
+        letter-spacing: 0.15em;
+        color: #5f9266;
+    }
+
+    .prava {
+        margin-top: -10px;
+        width: 200px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-size: 13px;
+        line-height: 14px;
+        color: #CFCFCF;
+    }
+
+    .prava2 {
+        list-style-type: none;
+        text-decoration: underline;
+        margin-left: -40px;
+        width: 200px;
+        margin-top: -5px;
+        font-style: normal;
+        font-size: 15px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+
+    .prava2 a {
+        color: #FFFFFF;
+    }
+
+    .prava2 a:hover {
+        color: #5f9266;
+    }
+
+    .osn_navigation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1px;
+        margin-top: 2px;
+        height: 100px;
+        margin-right: 10px;
+    }
+
+    .osn_navigation a {
+        text-decoration: none;
+        width: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-right: 40px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+
+    .osn_navigation a:hover {
+        font-size: 24px;
+        color: #5f9266;
+    }
+}

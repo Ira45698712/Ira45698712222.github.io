@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dostavka.css">
+    <title>LaVue</title>
+</head>
+
+<body>
+    <header class="header">
+        <div id="start"></div>
+        <h1 class="LaVue">LaVue</h1>
+        <div class="paspologenie">
+            <img class="znachok_paspologenie" src="img/расположение.png"></img>
+            <input type="text" class="adrres" id="name" name="user_name" placeholder="Введите адрес доставки">
+            <img class="lupa" src="img/лупа.png"></img>
+        </div>
+        <div class="pozvonit">
+            <a href="tel: +375293673694"><img src="img/телефон.png"></a>
+            <div class="pozvonit_phone">
+                <p class="pozvonit_phone_kontakt">Контакты:</p>
+                <a style="text-decoration: none;" href="tel:+375293673694">
+                    <p class="pozvonit_phone_tel">+375-29-367-36-94</p>
+                </a>
+            </div>
+        </div>
+        <div class="korzina_header">
+            <a style="text-decoration: none;" href="korzina.html">
+                <p class="korzina_header_nadpis">Корзина</p>
+            </a>
+            <img src="img/для_корзины.png">
+        </div>
+    </header>
+    <main>
+        <div class="menu_ssilki">
+            <div id="osnovnoe_menu"></div>
+            <ul class="menu">
+                <li><a href="main.html#xol_zakuski">Холодные закуски</a></li>
+                <li><a href="main.html#gor_zakuski">Горячие закуски</a></li>
+                <li><a href="main.html#maso">Мясные блюда</a></li>
+                <li><a href="main.html#sup">Супы</a></li>
+                <li><a href="main.html#riba">Рыбные блюда</a></li>
+                <li><a href="main.html#firmenie">Фирменные блюда</a></li>
+                <li><a href="main.html#desert">Десерты</a></li>
+                <li><a href="main.html#napitki">Напитки</a></li>
+            </ul>
+        </div>
+        <div class="uslovia_dostavki">
+            <div style="color: #403C3B;">d<br>f</div>
+            <a style="color: aliceblue; margin-left: 150px; padding-top: 20px;" class="pereiti_k_vibory"
+                href="main.html">
+                перейти к выбору блюда </a>
+            <h1>Условия доставки</h1>
+            <div class="page">
+                <div class="main_inf_about_dostavka">
+
+                    <input type="radio" name="conditions" id="sdacha" />
+                    <label class="lbl-conditions" for="sdacha">У наших курьеров всегда должна быть сдача!</label>
+                    <p class="text-for-conditions" id="t-sdacha">Одно из первых правил нашего заведения в вопросах
+                        доставки - это обязательное наличие сдачи для вас. Если у вас произошла ситуация обратная нашему
+                        правилу, прошу сообщить нам об этом.</p>
+
+                    <input type="radio" name="conditions" id="delivery" />
+                    <label class="lbl-conditions" for="delivery">Вам что-то не довезли?</label>
+                    <p class="text-for-conditions" id="t-delivery">Если по какой-либо причине вы не досчитались блюда,
+                        приносим глубочайшие извинения и просим вас незамедлительно сообщить об этом нам. Мы довезем вас
+                        потерявшееся блюдо и предоставим скидку в размере 50% на следующий заказ.</p>
+
+                    <input type="radio" name="conditions" id="product" />
+                    <label class="lbl-conditions" for="product">Не понравился продукт?</label>
+                    <p class="text-for-conditions" id="t-product">Если вам не понравился вкус или внешний вид
+                        доставленного блюда - сообщите нам, мы незамедлительно примем во внимание ваше обращение и
+                        решим, как исправить недоразумение.</p>
+
+                    <input type="radio" name="conditions" id="remarks" />
+                    <label class="lbl-conditions" for="remarks">Если появились замечания</label>
+                    <p class="text-for-conditions" id="t-remarks">Если у вас появились какие-либо замечания, связанные с
+                        качеством блюд, доставкой, компетентностью сотрудников - сообщите нам и мы попробуем исправить
+                        данную ситуацию и улучшить вам настроение.</p>
+
+                    <input type="radio" name="conditions" id="payment" />
+                    <label class="lbl-conditions" for="payment">Оплата Visa, Master Card и МИР</label>
+                    <p class="text-for-conditions" id="t-payment">Произвести оплату вы можете наличными, онлайн или
+                        картой при получении у курьера. Прошу обратить внимание, что мы принимаем только карты - Visa,
+                        Master Card и МИР. </p>
+
+                    <input type="radio" name="conditions" id="requisites" />
+                    <label class="lbl-conditions" for="requisites">Реквизиты</label>
+                    <p class="text-for-conditions" id="t-requisites">Реквизиты оплаты вы получите при оформлении заказа,
+                        для этого вам необходимо выбрать блюда, переместить их в корзину и перейти в раздел оформления
+                        заказа. После заполнеия всех полей - вы получите необходимые реквизиты.</p>
+                </div>
+                <img class="karta" src="img/карта.png">
+            </div>
+            <div class="about">
+                <div class="grafik_raboti">
+                    <p class=" grafik_raboti_dostavki"><b>График работы доставки:</b><br>с 11:00 до 02:00</p>
+                    <p class="grafik_raboti_restorana"><b>График работы ресторана:</b><br>с 10:00 до 03:00</p>
+                </div>
+                <h3 class="min_zakaz_nazvanie">Минимальный заказ:</h3>
+                <p class="min_zakaz">Бесплатная доставка пешим курьеромпри сумме заказа от 70BYN. <br>Доставка
+                    оператором такси от любой сумма заказа-по тарифам перевозчика.<br>Также доступен самовывоз.</p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <a href="#start"><img class="vverx" src="img/vverx.png"></a>
+        <div class="foorer_container">
+            <div class="footer_inf">
+                <p class="LOGOS2">LaVue</p>
+                <p class="prava">© ООО СК «АПШЕРОН»<br>Все права защищены. 2010-2020 </p>
+                <ul class="prava2">
+                    <a href="https://ds-steelline.by/polzovatelskoye-soglasheniye/">
+                        <li>Пользовательское соглашение</li>
+                    </a>
+                    <a href="https://soglasheniemerov.eu/Karta-Soglasheniya.html">
+                        <li>Карта сайта</li>
+                    </a>
+                    <a href="https://policies.google.com/privacy?hl=ru">
+                        <li>Политика конфедиальности</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="osn_navigation">
+                <nav><a href="o_restorane.html">О ресторане</a></nav>
+                <nav><a href="dostavka.html">Условия доставки</a></nav>
+                <nav><a href="main.html#kontakt">Контакты</a></nav>
+                <nav><a href="aksii.html">Акции</a></nav>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
